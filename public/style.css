@@ -1,0 +1,8 @@
+@font-face {
+font-family: ElvenCommonSpeak;
+src: url("elvencommonspeak.ttf")
+}
+
+body {
+font-family: ElvenCommonSpeak;
+}
