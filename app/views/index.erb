@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
 <head>
-<!--  <link rel="stylesheet" type="text/css" href="./style.css"/>-->
-  <link rel="stylesheet" href="<%= url('/style.css') %>"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<handwritten>
+  Welcome to the Elvish Translator
+</handwritten>
 
-  </head>
-<body>
-  This is a test
-</body>
-</html>
+<form action="/translate" method="POST">
+  <input type="submit" value="Translate">
+</form>
+
+<translated>
+  This is a test, and ' so was that.:
+</translated>
