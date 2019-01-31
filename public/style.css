@@ -1,7 +1,13 @@
 @font-face {
 font-family: ElvenCommonSpeak;
-src: url("elvencommonspeak.ttf")
+src: url("elvencommonspeak.ttf");
 }
+
+@font-face {
+    font-family: Rellanic;
+    src: url("Rellanic.otf");
+}
+
 
 h1 {
     font-size: 1em;
