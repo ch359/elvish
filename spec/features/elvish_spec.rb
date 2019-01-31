@@ -9,6 +9,7 @@ feature 'it should translate into Elvish' do
   scenario 'it has a box for text to translate' do
     visit '/'
     expect(page).to have_field 'Enter text to translate'
-  end
+    end
+
 
 end

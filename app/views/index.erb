@@ -5,10 +5,21 @@
   Welcome to the Elvish Translator
 </handwritten>
 
-<form action="/translate" method="POST">
+<form action="/translate" method="POST" id="translate">
   <input type="submit" value="Translate">
 </form>
 
+<textarea autofocus form="translate" placeholder="Enter text to translate" name="translate">
+
+</textarea>
+
 <translated>
-  This is a test, and ' so was that.:
+  <%= @elvish %>
 </translated>
+
+<handwritten>
+  <%= @handwritten %>
+</handwritten>
+
+
+
