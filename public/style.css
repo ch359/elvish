@@ -3,18 +3,28 @@ font-family: ElvenCommonSpeak;
 src: url("elvencommonspeak.ttf")
 }
 
+h1 {
+    font-size: 1em;
+    /*font-weight: normal*/
+}
 
-
-
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
 
 handwritten {
-    font-size: 6em;
+    font-size: 4em;
     font-family: ElvenCommonSpeak, Fallback Zapfino, sans-serif;
 }
 
 translated {
     font-size: 4em;
     font-family: Rellanic, sans-serif;
+}
+
+body {
+    /*background-color:;*/
 }
 
 
